@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class KategoriRelasi extends Model
 {
     use HasFactory;
+
+    protected $table = "kategori_buku_relasi";
 }
